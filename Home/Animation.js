@@ -155,5 +155,14 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     }
 
+    // --- MENU HAMBURGUESA ---
+    const toggleBtn = document.querySelector('.mobile-menu-toggle');
+    const mobileMenu = document.querySelector('.mobile-menu');
+
+        toggleBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('active');
+        });
+
+
     console.log('Ociraga Medellín - Animaciones cargadas correctamente');
 });

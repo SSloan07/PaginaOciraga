@@ -54,7 +54,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2rem;
+    padding: 0.5rem 0.5rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -75,6 +75,7 @@ body {
 
 .logoGrande {
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 0.8rem;
     font-weight: 700;
@@ -83,14 +84,14 @@ body {
 }
 
 .logo-imgGrande {
-    height: 90px; 
-    width: auto;
+    height: 300px; 
+    align-items: center;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .nav-links a {
